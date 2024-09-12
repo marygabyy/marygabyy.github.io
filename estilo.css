@@ -8,7 +8,7 @@ li{
 }
  body {
     background-color: rgba(255, 211, 161, 0.768);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:"Matemasie";
     text-align: center;
  }
 
@@ -21,5 +21,39 @@ li{
     color:rgb(229, 0, 0)
   }
    h1 {
-    color:rgb(107, 4, 4)
+    color:rgb(107, 4, 4);
+    
    }
+   .galeria {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image {
+    margin: 10px;
+    width: calc(33.33% - 20px); 
+    /* overflow: hidden; */
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+  }
+  .image:hover img {
+    transform: scale(1.1);
+  }
+  h2 {
+    color:rgb(172, 36, 36);
+  }
+  .biografia {
+    display:flex;
+  }
+.biografia img {
+  width: 200px;
+}
+.biografia p {
+  max-width: 50%;
+}
+
