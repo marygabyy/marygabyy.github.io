@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    padding: 0.8rem;
+}
+body {
+    background-color: rgba(255, 211, 161, 0.768);
+    font-family:"Matemasie";
+    text-align: center;
+ }
+
+h1 {
+            text-align: center;
+            margin: 20px 0;
+            color:rgb(107, 4, 4);
+        }
+
+        
+.galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colunas grandes */
+            grid-auto-rows: 10px; 
+            gap: 5px; 
+            padding: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        
+        .image {
+            grid-row-end: span 30; 
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px; 
+        }
+
+        a {
+            color:rgb(103, 13, 13);
+            text-decoration: none;
+          }
+        
+          a:hover {
+            color:rgb(229, 0, 0)
+          }
